@@ -9,7 +9,7 @@
 int *reverseArray(int x[], int size){
     static int* arr;
 	arr = (int*) calloc(size,sizeof(int));
-	arr[5];
+
 	int beg =0;
 	int end =size-1;
 	while(beg<=end){
